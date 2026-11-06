@@ -1,0 +1,9 @@
+{
+  "n_items": 624,
+  "n_bootstrap": 1000,
+  "chrf": {"A": 35.8444, "B": 36.6947, "delta": 0.8504, "ci95": [0.6354, 1.082], "p_B_not_better": 0},
+  "n_term_checks": 66,
+  "team_term_rate": {"A": 0.9697, "B": 0.9848, "delta": 0.0152, "ci95": [0, 0.05], "p_B_not_better": 0.382},
+  "A_file": "runs/20261104_1203_v200_gw0.0/test_preds/A_greedy.jsonl",
+  "B_file": "runs/20261104_1203_v200_gw0.0/test_preds/E_all.jsonl"
+}

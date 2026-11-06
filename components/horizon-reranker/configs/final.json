@@ -1,0 +1,12 @@
+{
+  "adapter": "/workspace/stage4/adapter",
+  "backward_adapter": "/workspace/finetuning_Bomin/outputs/hymt2_cs/checkpoint-1520",
+  "prompt_style": "jjha_stage4",
+  "context_size": 2,
+  "repeat_recovery": true,
+  "fixed_budget": true,
+  "max_new_tokens": 512,
+  "n_samples": 6,
+  "gen_batch_size": 8,
+  "score_batch_size": 16
+}

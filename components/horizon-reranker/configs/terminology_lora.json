@@ -1,0 +1,11 @@
+{
+  "adapter": "/workspace/terminology_adapter/adapter",
+  "backward_adapter": "/workspace/finetuning_Bomin/outputs/hymt2_cs/checkpoint-1520",
+  "prompts": {
+    "forward": "Translate the English academic text into natural Korean. Preserve technical proper names and any Markdown formatting.{rules}\n\n{source}"
+  },
+  "context_size": 2,
+  "n_samples": 6,
+  "gen_batch_size": 8,
+  "score_batch_size": 16
+}

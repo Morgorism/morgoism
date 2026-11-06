@@ -1,0 +1,8 @@
+{
+  "A_greedy": {"weights": null},
+  "B_fwd": {"weights": {"fwd": 1.0, "bwd": 0.0, "lm": 0.0, "glossary": 0.0, "len": 0.0}},
+  "E_all": {"weights": {"fwd": 1.0, "bwd": 0.057, "lm": 0.091, "glossary": 3.207, "len": 0.307}},
+  "_settings": {"trials": 300, "glossary_weight": 0.0, "docs": 200,
+                "source_run": "runs/20261104_1203_v200_gw0.0",
+                "note": "E_all/A_greedy/B_fwd are exact (tune rounds weights to 3 decimals). C_fwd_bwd and D_fwd_bwd_lm were not copied from the pod; replace this file with the original weights.json when the pod is reachable."}
+}
