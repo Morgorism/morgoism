@@ -1,0 +1,23 @@
+services:
+  api:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: cs-paper-api:local
+    # Docker Compose >= 2.30.0. Host NVIDIA GPU must be available to Docker.
+    gpus: all
+    env_file:
+      - .env
+    ports:
+      # Localhost-only by default; do not expose the endpoint without additional security.
+      - "127.0.0.1:8000:8000"
+    volumes:
+      # Users supply their own LoRA weights and model cache, outside of Git.
+      - ./local-data:/workspace
+    restart: unless-stopped
+    shm_size: '2gb'
+    init: true
+    environment:
+      HF_HOME: /workspace/hf_cache
+      MODEL_CONFIG: /workspace/rerank_config.json
+      JOB_DIR: /workspace/jobs

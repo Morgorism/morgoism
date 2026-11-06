@@ -1,0 +1,29 @@
+{
+  "pipeline": "cs-paper-final-integration",
+  "time": "2026-11-06T00:00:42",
+  "mode": "demo",
+  "actually_ran_neural_translation": false,
+  "renderer": "real",
+  "input": "/mnt/data/CS_Paper_Pipeline_Final/examples/mineru_result.zip",
+  "paper_md": "/mnt/data/CS_Paper_Pipeline_Final/output/sample_test/document/paper.md",
+  "translated_md": "/mnt/data/CS_Paper_Pipeline_Final/output/sample_test/document/paper.ko.md",
+  "output_pdf": "/mnt/data/CS_Paper_Pipeline_Final/output/sample_test/sample_test.DEMO.pdf",
+  "units_in_demo": 50,
+  "protected": {
+    "RAW": 3,
+    "INLINE": 5
+  },
+  "model_info": null,
+  "verification": {
+    "source_image_references": 3,
+    "image_missing": [],
+    "pipe_table_rows": 9,
+    "source_characters": 7627,
+    "final_characters": 8527
+  },
+  "limitations": [
+    "원본 2단 지면과 동일한 PDF 레이아웃으로 출력하지는 않습니다.",
+    "Markdown 표는 구조 보존되며 표 내부 영어는 팀원 Reranker에서 번역하지 않습니다.",
+    "PDF 수식의 수학적 OCR 정확도는 사람 검증이 필요합니다."
+  ]
+}

@@ -1,0 +1,24 @@
+# Secrets, model weights, caches and processing outputs should stay local.
+.env
+.env.*
+!.env.example
+local-data/
+workspace/
+__pycache__/
+**/__pycache__/
+*.pyc
+.pytest_cache/
+.venv/
+venv/
+output/
+outputs/
+*.safetensors
+*.bin
+*.pt
+*.pth
+*.ckpt
+*.gguf
+*.log
+*.tar.gz
+*.zip.tmp
+.DS_Store

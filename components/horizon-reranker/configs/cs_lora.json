@@ -1,0 +1,10 @@
+{
+  "adapter": "/workspace/finetuning_Bomin/outputs/hymt2_cs/checkpoint-1520",
+  "prompts": {
+    "forward": "Translate the following English text into Korean. Output only the translation.\n\n{source}"
+  },
+  "context_size": 2,
+  "n_samples": 6,
+  "gen_batch_size": 8,
+  "score_batch_size": 16
+}

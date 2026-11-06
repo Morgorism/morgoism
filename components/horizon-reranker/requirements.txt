@@ -1,0 +1,7 @@
+# RunPod PyTorch 템플릿에는 torch가 이미 설치되어 있으므로 torch는 설치하지 않습니다.
+sacrebleu[ko]>=2.4
+transformers==5.22.1
+peft==0.21.2
+accelerate
+tokenizers
+pytest
